@@ -1,0 +1,68 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    <--padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+    border: 2px solid #000
+}
+
+.article 
+{
+    <--background-image: url("../../../../Downloads/IMG_3619.JPG");
+    background-image: url("../images/lewisComputer.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    <--opacity: .6;
+    background-color: rgba(255,255,255,.6);
+    background-blend-mode: lighten;
+    /*background-color: rgba(0,0,0,.2);
+    background-blend-mode: Darken;*/
+    background-position: right; 
+    background-size: 80%;
+	border: 2px solid #000;
+	<--margin-top: 80px;
+	height: 100%;
+	width: 100%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-color: rgb(255,255,255);
+}
+
+header 
+{
+    background: #aaa;color:white;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+footer 
+{
+    background: #aaa;color:white;
+}
+.nav 
+{
+    background:#eee;
+}
+
+.nav ul 
+{
+    <--padding: 20px;
+    font-size: 30px;
+}
+.nav ul a 
+{
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
