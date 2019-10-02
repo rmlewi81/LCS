@@ -7,7 +7,7 @@
 }
 
 .flex-container > * {
-    <--padding: 15px;
+    padding: 15px;
     -webkit-flex: 1 100%;
     flex: 1 100%;
     border: 2px solid #000
@@ -16,7 +16,7 @@
 .article 
 {
     <--background-image: url("../../../../Downloads/IMG_3619.JPG");
-    background-image: url("../images/lewisComputer.jpg");
+    <--background-image: url("../images/lewisComputer.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     <--opacity: .6;
@@ -27,7 +27,7 @@
     background-position: right; 
     background-size: 80%;
 	border: 2px solid #000;
-	<--margin-top: 80px;
+	<--margin-top: 20px;
 	height: 100%;
 	width: 100%;
     text-align: center;
@@ -38,15 +38,15 @@
 
 header 
 {
-    background: #aaa;color:white;
+    background: #007CF6;color:white;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
 }
 footer 
 {
-    background: #aaa;color:white;
+    background: #007CF6;color:white;
 }
-.nav 
+<!––.nav 
 {
     background:#eee;
 }
@@ -59,7 +59,7 @@ footer
 .nav ul a 
 {
     text-decoration: none;
-}
+}-->
 
 @media all and (min-width: 768px) {
     .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
